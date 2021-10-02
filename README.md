@@ -8,3 +8,4 @@
 4.打开脚本
 5.输入体力数
 
+https://watch.screencastify.com/v/iLvWB4ax0ZlKUJ2AvfUA

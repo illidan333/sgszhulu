@@ -6,14 +6,15 @@ WinActivate("[CLASS:CefBrowserWindow]")
 
 Dim $tiaoZhan = $sAnswer
 
+Dim saoDang = 0
 ;enterZhuluMode()
 
 For $i = $tiaoZhan To 1 Step -1
    levelx("tiaoZhan")
 Next
-For $i = $saoDang To 1 Step -1
-   levelx("saoDang")
-Next
+;For $i = $saoDang To 1 Step -1
+;   levelx("saoDang")
+;Next
 
 Func clickOnSomething($x, $y)
    MouseClick("left", $x, $y);click on the task menu

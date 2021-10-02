@@ -6,7 +6,7 @@ WinActivate("[CLASS:CefBrowserWindow]")
 
 Dim $tiaoZhan = $sAnswer
 
-Dim saoDang = 0
+Dim $saoDang = 1
 ;enterZhuluMode()
 
 For $i = $tiaoZhan To 1 Step -1
